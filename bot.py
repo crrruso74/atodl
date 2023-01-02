@@ -6,7 +6,7 @@ API_ID = int(environ.get("API_ID", 24281454))
 API_HASH = environ.get("API_HASH", "dbe4521b4291da85becb65c7d4d4c36c")
 BOT_TOKEN = environ.get("BOT_TOKEN", "5801828691:AAFNuWAz1nL3I8qherfvf3knLioKrVSF7EA")
 SESSION = environ.get("SESSION", "AQBiMZkAF_UXN9tmXvtZkfSpSo518pKVvK6QCb061ZFplG8B3EZwimCEwcu7PFvyhwxBX7fkqlAJiBXp8GVA-1JbU0lyd1SEdvIO5W6TDqOcxl-KmQaOSOqne_P0NCcgDk4NGw7YS90G70KHRWBySic6Wr_tIee5Xo0kVp1d1KXvg8DpnIWzUNGwCBrdN7mBFSkhQu4_Te9goORVL4zvoynCxOV-nsHWZJnkajDkRS6pTDbdp8o33AN6uCMMDtZLxvYF7mVFja5A6vAJOKOlXwi79w0Q2QNfLNeHLUns8HrSo86BPMlUSELcpqfIBgg-6VmRLVkE1LO74ubnKwJ0V_oPydfnRgAAAAFUqxlhAA")
-TIME = int(environ.get("TIME", 10))
+TIME = int(environ.get("TIME", 160))
 GROUPS = []
 for grp in environ.get("GROUPS", "-1001489648140 -1001638282030 -1001645982114").split():
     GROUPS.append(int(grp))
