@@ -8,7 +8,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "5460795442:AAGn6kth_XPCMO1KIOpB8-odZX_h21U
 SESSION = environ.get("SESSION", "AQADj04oubY81Vz_FviOhDCZTJQeNeE0mAyVSGQGudDuY5ztF-vQzipdTYuDzz44oasUGJx302iZMi-gDxnFJHG-ukiLW_CT91Iceo9bh3VjFwZ3vsyxt2CuE1f9s-hCwyw5cXyqDRj1OtafeRSLE9TKxiDWhpuAeUqtkQ6q_KxJJyOKVJaOFmgKq7E9ve9tfZUTGGndsCQ8MDS5uyZ5_lf4w2ERnXR5TQV5Vw_EhvN0WEyaNdHmB0Lp9n-EgplmiC8rTOZZ_Nwnf8W7B4q9knHGd7fL5bY7py3HiQShrQ8GY2YaJPJvWcHFYieRpJxG5sdRzkpXRB3YflgfUhbCIFg3AAAAAVcsK8MA")
 TIME = int(environ.get("TIME", 3))
 GROUPS = []
-for grp in environ.get("GROUPS", "-1001652878224 -1001762138428").split():
+for grp in environ.get("GROUPS", "-1001652878224 -1001631930499").split():
     GROUPS.append(int(grp))
 ADMINS = [5650200786]
 for usr in environ.get("ADMINS", "1119774110").split():
